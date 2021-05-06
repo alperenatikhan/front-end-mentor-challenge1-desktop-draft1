@@ -1,0 +1,60 @@
+:root {
+  --div-height: 50vh;
+  --uni-margin: 10vw;
+  --mini-margin: 5vw;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-pic {
+  width: 50%;
+  height: var(--div-height);
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+#card-img {
+  height: var(--div-height);
+  margin-left: var(--mini-margin);
+}
+
+#card {
+  color: white;
+  background-color: grey;
+  width: 60vw;
+  height: var(--div-height);
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+#card-text {
+  width: 50%;
+  font-size: 0.9rem;
+  height: var(--div-height);
+  padding: 2vw;
+}
+
+#figures {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fact-number {
+  margin: auto;
+  width: 30%;
+}
+
+#purple-text {
+  color: purple;
+}
